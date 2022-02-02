@@ -1,4 +1,4 @@
-# LyndonWords
+# <a href="https://richarddufour.github.io/lyndonword/">Lyndon Words</a>
 
 <img align="left" alt="Coffee" src="https://forthebadge.com/images/badges/powered-by-coffee.svg" />
 <img align="left" alt="Coffee" src="/src/assets/made-with-react.svg" />
