@@ -7,7 +7,7 @@ import './navbar.css'
 const Menu = () => (
   <>
     <p><a href="#generation">Generation</a></p>
-    <p><a href="#factorisation">Factorization</a></p>
+    <p><a href="#factorization">Factorization</a></p>
     <p><a href="#bruijnword">Bruijn Words</a></p>
   </>
 )
