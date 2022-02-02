@@ -6,11 +6,9 @@ import './navbar.css'
 
 const Menu = () => (
   <>
-    <p><a href="#home">Home</a></p>
-    <p><a href="#wgpt3">What is GPT3?</a></p>
-    <p><a href="#possibility">Open AI</a></p>
-    <p><a href="#features">Case Studies</a></p>
-    <p><a href="#blog">Library</a></p>
+    <p><a href="#generation">Generation</a></p>
+    <p><a href="#factorisation">Factorization</a></p>
+    <p><a href="#bruijnword">Bruijn Words</a></p>
   </>
 )
 
@@ -24,10 +22,6 @@ const Navbar = () => {
           <Menu />
         </div>
       </div>
-      <div className="gpt3__navbar-sign">
-        <p>Sign In</p>
-        <button type="button">Sign Up</button>
-      </div>
       <div className="gpt3__navbar-menu">
         {toggleMenu
           ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
@@ -36,10 +30,6 @@ const Navbar = () => {
         {toggleMenu && (
           <div className="gpt3__navbar-menu_container scale-up-center"> 
             <div className="gpt3__navbar-menu_container-links"> <Menu /> </div>
-            <div className="gpt3__navbar-menu_container-links-sign">
-              <p>Sign In</p>
-              <button type="button">Sign Up</button>
-            </div>
           </div>
         )}
       </div>

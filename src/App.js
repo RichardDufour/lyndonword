@@ -4,7 +4,7 @@ import { Navbar } from './components';
 
 function App() {
   return (
-    <div class="App">
+    <div className="App gradient__bg">
       <div className="gradient__bg">
         <Navbar />
       </div>
