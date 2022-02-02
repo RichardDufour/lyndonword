@@ -7,7 +7,7 @@
 
 <br />
 <br />
-Bibliothèque d'algorithmes sur les mots de Lyndon et les utilisant développée en JavaScript et déployer sur un site hébergé par GitHub Pages 🧑‍💻
+Bibliothèque d'algorithmes sur les mots de Lyndon et les utilisant développée en JavaScript et en React pour l'interface. Site hébergé par GitHub Pages 🧑‍💻
 <br />
 N'hésitez pas à me contacter : richarddufour@laposte.net ✉️
 <br />
