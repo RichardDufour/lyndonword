@@ -1,7 +1,7 @@
 # LyndonWords
 
 <img align="left" alt="Coffee" src="https://forthebadge.com/images/badges/powered-by-coffee.svg" />
-<img align="left" alt="Coffee" src="https://forthebadge.com/images/badges/made-with-react.svg" />
+<img align="left" alt="Coffee" src="/src/assets/made-with-react.svg" />
 <img align="left" alt="OpenSource" src="https://forthebadge.com/images/badges/open-source.svg" />
 <img align="left" alt="Coffee" src="https://forthebadge.com/images/badges/uses-git.svg" />
 
