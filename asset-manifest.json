@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/lyndonword/static/css/main.ea2d337b.css",
-    "main.js": "/lyndonword/static/js/main.0540ab47.js",
+    "main.js": "/lyndonword/static/js/main.ad65708a.js",
     "index.html": "/lyndonword/index.html",
     "main.ea2d337b.css.map": "/lyndonword/static/css/main.ea2d337b.css.map",
-    "main.0540ab47.js.map": "/lyndonword/static/js/main.0540ab47.js.map"
+    "main.ad65708a.js.map": "/lyndonword/static/js/main.ad65708a.js.map"
   },
   "entrypoints": [
     "static/css/main.ea2d337b.css",
-    "static/js/main.0540ab47.js"
+    "static/js/main.ad65708a.js"
   ]
 }
