@@ -17,7 +17,7 @@ function App() {
       <div className="gradient__bg">
         <Navbar />
         <Header />
-        <Formula tex={`${toTex(a)} × ${toTex(b)} = ${toTex(answer)}`} />
+        <Formula tex={`${toTex(a)} + ${toTex(b)} = ${toTex(answer)}`} />
       </div>
     </div>
   );

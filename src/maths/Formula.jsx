@@ -5,7 +5,9 @@ import { Node, Context } from 'react-mathjax2';
 const Formula = ({ props }) => {
   return (
     <Context input="tex">
-      <Node inline>{props.tex}</Node>
+      <div>
+        <Node inline>{props.tex}</Node>
+      </div>
     </Context>
   );
 };
