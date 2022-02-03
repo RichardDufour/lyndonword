@@ -2,11 +2,11 @@ import React from 'react';
 import { Fraction, toTex } from 'algebra.js';
 import { Node, Context } from 'react-mathjax2';
 
-const Formula = ({ props }) => {
+const Formula = ({ tex }) => {
   return (
     <Context input="tex">
       <div>
-        <Node inline>{props.tex}</Node>
+        <Node inline>{tex}</Node>
       </div>
     </Context>
   );

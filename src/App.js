@@ -1,24 +1,25 @@
 import './App.css';
-import { Navbar } from './components';
+import { Navbar, Proposition } from './components';
 import { Header } from './containers';
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { Formula } from './maths';
 import { Fraction, toTex } from 'algebra.js';
+import { MathJax, MathJaxContext } from "better-react-mathjax";
 
 function App() {
 
-  const a = new Fraction(1, 5);
-  const b = new Fraction(2, 7);
-  const answer = a.multiply(b);
+  const config = {
+    loader: { load: ["input/asciimath"] }
+  };
 
   return (
     <div className="App gradient__bg">
       <div className="gradient__bg">
         <Navbar />
         <Header />
-        <Formula tex={`${toTex(a)} + ${toTex(b)} = ${toTex(answer)}`} />
       </div>
+        <Proposition typeOfProposition="Définition" desc="`frac(10)(4x) approx 2^(12)`" title="Mots de Lyndon" />
     </div>
   );
 }
