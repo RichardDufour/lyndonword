@@ -19,7 +19,7 @@ function App() {
         <Navbar />
         <Header />
       </div>
-        <Proposition typeOfProposition="Définition" desc="`frac(10)(4x) approx 2^(12)`" title="Mots de Lyndon" />
+        <Proposition typeOfProposition="Définition" desc="`frac(10)(4x) approx 2^(12)`" title="Mots de Lyndon" config={config} />
     </div>
   );
 }
