@@ -13,13 +13,17 @@ function App() {
     loader: { load: ["input/asciimath"] }
   };
 
+  const configtex = {
+    loader: { load: ["[tex]/html"] }
+  };
+
   return (
     <div className="App gradient__bg">
       <div className="gradient__bg">
         <Navbar />
         <Header />
       </div>
-        <Proposition typeOfProposition="Définition" desc="`frac(10)(4x) approx 2^(12)`" title="Mots de Lyndon" config={config} />
+        <Proposition typeOfProposition="Définition" desc="Un mot de Lyndon n'as pas de facteur propre qui est à la fois un préfixe et un suffixe du mot." title="Mots de Lyndon" config={config} />
     </div>
   );
 }
